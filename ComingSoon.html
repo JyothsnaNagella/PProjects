@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3e5f5;
+            position: relative;
+        }
+
+        /* Background container for multiple images */
+        .background-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place images behind the text */
+        }
+
+        .background-images img {
+            position: absolute;
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            opacity: 0.7; /* Make the images slightly transparent */
+        }
+
+        /* Position the images randomly across the screen */
+        img.img2 { top: 10%; left: 15%; }
+        img.img3 { top: 20%; left: 65%; }
+        img.img4 { top: 40%; left: 25%; }
+        img.img5 { top: 70%; left: 10%; }
+        img.img6 { top: 50%; left: 60%; }
+        img.img7 { top: 80%; left: 80%; }
+        img.img8 { top: 15%; left: 85%; }
+        img.img9 { top: 5%; left: 45%; }
+        img.img10 { top: 60%; left: 35%; }
+        img.img11 { top: 75%; left: 55%; }
+
+        /* Style for the "Coming Soon" message */
+        .message {
+            text-align: center;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family: 'Dancing Script', cursive; /* Cursive font */
+            color: #5E2745; /* Brinjal color */
+            margin: 0;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background-images">
+    <img src="image2.jpg" class="img2" alt="Plant 2">
+    <img src="image3.jpg" class="img3" alt="Plant 3">
+    <img src="image4.jpg" class="img4" alt="Plant 4">
+    <img src="image5.jpg" class="img5" alt="Plant 5">
+    <img src="image6.jpg" class="img6" alt="Plant 6">
+    <img src="image7.jpg" class="img7" alt="Plant 7">
+    <img src="image8.jpg" class="img8" alt="Plant 8">
+    <img src="image9.jpg" class="img9" alt="Plant 9">
+    <img src="image10.jpg" class="img10" alt="Plant 10">
+    <img src="image11.png" class="img11" alt="Plant 11">
+</div>
+
+<div class="message">
+    <h1>Coming Soon</h1>
+</div>
+
+</body>
+</html>
